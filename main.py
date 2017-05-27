@@ -416,6 +416,7 @@ if __name__ == '__main__':
     SUB='_2AkMvnYHZdcPhrAZXnPkQzGnhaYRH-jycSOgvAn7uJhMyAxgv7nExqSVFXD9BUcx5oZy01um07nYYpXXqrg..'
     retweets=get_retweet(ID,SUB)
     result=json.dumps(retweets, ensure_ascii = False, indent = 4)
+    #write in the file
     f=open('./test.txt','w')
     f.write(result.strip()+'\n')
     f.close()
