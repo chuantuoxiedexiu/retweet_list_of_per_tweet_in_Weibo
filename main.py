@@ -415,8 +415,6 @@ if __name__ == '__main__':
     #company ID
     #ID='4106575037660727'
     #personal ID
-    #ID='4104811978467157'
-    #unlogin SUB
     ID='4106640086876351'
     SUB='_2AkMvnYHZdcPhrAZXnPkQzGnhaYRH-jycSOgvAn7uJhMyAxgv7nExqSVFXD9BUcx5oZy01um07nYYpXXqrg..'
     retweets=get_retweet(ID,SUB)
