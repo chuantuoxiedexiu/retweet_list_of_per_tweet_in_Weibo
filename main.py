@@ -415,6 +415,7 @@ if __name__ == '__main__':
     ID='4106640086876351'
     SUB='_2AkMvnYHZdcPhrAZXnPkQzGnhaYRH-jycSOgvAn7uJhMyAxgv7nExqSVFXD9BUcx5oZy01um07nYYpXXqrg..'
     retweets=get_retweet(ID,SUB)
+    #you can use this code to convert dict to json type
     result=json.dumps(retweets, ensure_ascii = False, indent = 4)
     #write in the file
     f=open('./test.txt','w')
