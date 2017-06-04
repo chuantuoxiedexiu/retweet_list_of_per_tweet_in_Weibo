@@ -412,6 +412,7 @@ def get_retweet_list(tweet_ID,s,SUB):
     return retweet_list
 if __name__ == '__main__':
     print 'begin'
+    #this is the user ID
     ID='4106640086876351'
     SUB='_2AkMvnYHZdcPhrAZXnPkQzGnhaYRH-jycSOgvAn7uJhMyAxgv7nExqSVFXD9BUcx5oZy01um07nYYpXXqrg..'
     retweets=get_retweet(ID,SUB)
