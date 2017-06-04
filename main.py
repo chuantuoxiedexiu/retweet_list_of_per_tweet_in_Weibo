@@ -414,6 +414,7 @@ if __name__ == '__main__':
     print 'begin'
     #this is the user ID
     ID='4106640086876351'
+    #this is the cookie key and value you have to add to the request
     SUB='_2AkMvnYHZdcPhrAZXnPkQzGnhaYRH-jycSOgvAn7uJhMyAxgv7nExqSVFXD9BUcx5oZy01um07nYYpXXqrg..'
     retweets=get_retweet(ID,SUB)
     #you can use this code to convert dict to json type
