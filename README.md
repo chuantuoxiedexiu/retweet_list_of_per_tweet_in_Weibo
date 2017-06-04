@@ -5,4 +5,4 @@
 
 3.The most important key-value in cookie is SUB,when you crawl retweet, you do not need the login cookie, just a cookie is enough.
 
-4.
+4.one tip that I want to give you is that you must slow down when the Weibo system find you crawl too fast.
