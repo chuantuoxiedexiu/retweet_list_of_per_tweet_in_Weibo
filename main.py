@@ -421,6 +421,7 @@ if __name__ == '__main__':
     #write in the file
     f=open('./test.txt','w')
     f.write(result.strip()+'\n')
+    #never forget to close the file!
     f.close()
 
 
