@@ -411,7 +411,6 @@ def get_retweet_list(tweet_ID,s,SUB):
             #     #retweet_list=get_retweet(retweet_ID,SUB)
     return retweet_list
 if __name__ == '__main__':
-    print 'begin'
     #this is the user ID
     ID='4106640086876351'
     #this is the cookie key and value you have to add to the request
