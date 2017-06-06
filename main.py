@@ -271,14 +271,6 @@ def get_retweet_list(tweet_ID,s,SUB):
                 b=tree[a].xpath('.//div[@class="WB_from S_txt2"]//a[@node-type="feed_list_item_date"]/@title')[0]
                 #print 'retweet_time:',b
                 retweet_list[-1]['retweet_time']=b
-                # #verify
-                # b=tree[a].xpath('.//div[@class="WB_text"]//a[@href="http://company.verified.weibo.com/bluev/verify/index?from=feedv"]')
-                # if b:
-                #     print 'retweeter_Verified: ', b[0].xpath('./i/@title')[0]
-                # else:
-                #     b=tree[a].xpath('.//div[@class="WB_text"]//a[@href="http://verified.weibo.com/verify"]')
-                #     if b:
-                #         print 'retweeter_Verified: ', b[0].xpath('./i/@title')[0]
                 # #VIP
                 # b=tree[a].xpath('.//div[@class="WB_text"]//a[@action-type="ignore_list"]')
                 # if b:
