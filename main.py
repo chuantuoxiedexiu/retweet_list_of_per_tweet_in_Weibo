@@ -271,15 +271,7 @@ def get_retweet_list(tweet_ID,s,SUB):
                 b=tree[a].xpath('.//div[@class="WB_from S_txt2"]//a[@node-type="feed_list_item_date"]/@title')[0]
                 #print 'retweet_time:',b
                 retweet_list[-1]['retweet_time']=b
-                # #VIP
-                # b=tree[a].xpath('.//div[@class="WB_text"]//a[@action-type="ignore_list"]')
-                # if b:
-                #     print 'retweeter_VIP:',b[0].xpath('./em/@class')[0][-1]
-                # #retweet content:
-                # b=tree[a].xpath('.//div[@class="WB_text"]//span[@node-type="text"]//text()')
-                # content=''.join(b)
-                # content=content.strip()
-                # print 'retweet_content:',content
+                
                 # #topic
                 # b=tree[a].xpath('.//div[@class="WB_text"]//a[@class="a_topic"]')
                 # if b:
