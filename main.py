@@ -272,11 +272,7 @@ def get_retweet_list(tweet_ID,s,SUB):
                 #print 'retweet_time:',b
                 retweet_list[-1]['retweet_time']=b
                 
-                # #topic
-                # b=tree[a].xpath('.//div[@class="WB_text"]//a[@class="a_topic"]')
-                # if b:
-                #     for c in b:
-                #         print 'hot topic: ', c.text.strip('#'), c.get('href')
+                
                 # #mention
                 # b=tree[a].xpath('.//div[@class="WB_text"]//a[@extra-data="type=atname"]')
                 # if b:
