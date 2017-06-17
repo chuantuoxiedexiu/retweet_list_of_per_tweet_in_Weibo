@@ -141,7 +141,6 @@ def get_retweet(tweet_ID,SUB):
         raw = codered['data']['html']
         ww=etree.HTML(raw)
         tree=ww.xpath('//div[@mid]')
-        #print len(tree)
         begin_num=0
         end_num=len(tree)
         if len(tree)>20:
