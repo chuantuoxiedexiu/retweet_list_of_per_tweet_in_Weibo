@@ -370,7 +370,7 @@ def get_retweet_list(tweet_ID,s,SUB):
             #     print 'retweet number:',0
             # else :
             #     print 'retweet number: ',b.split(' ')[1]
-            #     #retweet_list=get_retweet(retweet_ID,SUB)
+ 
     return retweet_list
 if __name__ == '__main__':
     #this is the tweet ID
