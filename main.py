@@ -366,8 +366,6 @@ def get_retweet_list(tweet_ID,s,SUB):
             #     print 'retweet like:',0
             # #retweet number
             # b=tree[a].xpath('.//div[@class="WB_handle W_fr"]//a[@action-type="feed_list_forward"]/text()')[0]
-
- 
     return retweet_list
 if __name__ == '__main__':
     #this is the tweet ID
