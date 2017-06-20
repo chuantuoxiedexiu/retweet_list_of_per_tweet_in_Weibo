@@ -358,7 +358,6 @@ def get_retweet_list(tweet_ID,s,SUB):
             #         print 'face:',c
             # b=tree[a].xpath('.//div[@class="WB_from S_txt2"]//a[@node-type="feed_list_item_date"]/@title')[0]
             # print 'retweet_time:',b
-            # #retweet like
     return retweet_list
 if __name__ == '__main__':
     #this is the tweet ID
