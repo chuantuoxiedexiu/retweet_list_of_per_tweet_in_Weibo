@@ -371,4 +371,3 @@ if __name__ == '__main__':
     f=open('./test.txt','w')
     f.write(result.strip()+'\n')
     f.close()
-
