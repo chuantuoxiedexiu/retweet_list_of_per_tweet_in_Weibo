@@ -1,7 +1,6 @@
 # -*- coding:utf8 -*-
 import requests
 import time
-import re
 import math
 from lxml import etree
 import urllib
