@@ -10,6 +10,7 @@ import re
 
 reload(sys)
 sys.setdefaultencoding('utf8')
+
 def get_retweet(tweet_ID,SUB):
     user_agent={'User-agent':'spider'}
     s = requests.Session()
