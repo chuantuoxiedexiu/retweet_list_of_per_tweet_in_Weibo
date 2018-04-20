@@ -351,7 +351,6 @@ def get_retweet_list(tweet_ID,s,SUB):
             # if b:
             #     for c in b:
             #         print 'image:',c
-            # #face
             # b=tree[a].xpath('.//div[@class="WB_text"]//img[@type="face"]/@title')
             # if b:
             #     for c in b:
