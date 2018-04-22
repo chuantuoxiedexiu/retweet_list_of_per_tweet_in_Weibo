@@ -132,7 +132,7 @@ def get_retweet(tweet_ID,SUB):
     raw = codered['data']['html']
     total_page_number=int(codered['data']['page']['totalpage'])
     total_retweet_number=int(codered['data']['count'])
-    #print total_page_number
+    print total_page_number
     #print total_retweet_number
     for i in range(1,total_page_number+1):
         url='http://weibo.com/aj/v6/mblog/info/big?ajwvr=6&id='+tweet_ID+'&page='+str(i)
