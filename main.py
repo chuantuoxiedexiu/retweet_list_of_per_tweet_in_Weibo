@@ -29,7 +29,7 @@ def get_retweet(tweet_ID,SUB):
             raw = codered['data']['html']
             ww=etree.HTML(raw)
             tree=ww.xpath('//div[@mid]')
-            #print '----------------------------------------hot retweet',len(tree)
+            #print '---------------------------------------hot retweet',len(tree)
             for a in range(len(tree)):
                 #print '---'*20
                 retweets.append({})
